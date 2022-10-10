@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  color: #000;
+  min-width: 320px;
+  font-weight: 300;
+  line-height: 0.725;
+  font-family: Oswald, Arial, sans-serif;
+}
+a {
+  color: #000;
+  transition: text-decoration-color 0.3s ease 0s;
+  will-change: text-decoration-color;
+}
+a:hover {
+  text-decoration-color: transparent;
+}
+.layout {
+  width: 768px;
+  padding: 12px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  overflow: hidden;
+}
+.header h1 {
+  margin: 0;
+  font-size: 60px;
+  font-weight: 700;
+  padding-right: 12px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  transform: scale(1, 2.46);
+  transform-origin: left top;
+}
+.header img {
+  width: 120px;
+  height: 120px;
+  display: block;
+  object-fit: cover;
+}
+
+.article {
+  margin-top: 60px;
+}
+.article h2 {
+  font-size: 32px;
+  margin: 0 0 12px;
+  text-transform: uppercase;
+}
+.article p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.2;
+  font-family: Source San Pro, sans-serif;
+}
+.article ul {
+  margin: 20px 0 0;
+}
+.article li {
+  font-size: 16px;
+  margin: 0 0 4px;
+  line-height: 1.2;
+  font-family: Source San Pro, sans-serif;
+}
+
+.double {
+  display: flex;
+  flex-wrap: wrap;
+}
+.double li {
+  flex: 0 0 50%;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.list h3 {
+  font-size: 24px;
+  margin: 0 0 4px;
+  font-weight: 300;
+  font-family: Oswald, Arial, sans-serif;
+}
+.list > li {
+  margin-bottom: 20px;
+}
+.list ul {
+  margin-top: 8px;
+  list-style: disc;
+}

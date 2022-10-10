@@ -1,0 +1,260 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Aleksandr Iakunichev",
+    "label": "Frontend Engineer",
+    "image": "https://ya.codes/img/cv.jpg",
+    "email": "hi@ya.codes",
+    "phone": "",
+    "url": "https://ya.codes/",
+    "summary": "Software Engineer with 10+ years of experience building responsive web applications. Got expertise in modern Frontend technologies such as TypeScript, React, Redux, Jest, and others. Capable of developing simple backend services or CLIs with the use of Node.js. Experienced in building CI/CD pipelines for Frontend applications' testing and deployment using GitLab CI/CD. Currently works as a Senior Engineer at TinyMCE.",
+    "location": {
+      "address": "",
+      "postalCode": "10000",
+      "city": "Zagreb",
+      "countryCode": "HR",
+      "region": "Croatia"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "@yacodes",
+        "url": "https://github.com/yacodes"
+      },
+      {
+        "network": "Linkedin",
+        "username": "@ya-codes",
+        "url": "https://www.linkedin.com/in/ya-codes/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Tiny",
+      "position": "Senior Software Engineer",
+      "startDate": "Jul 2021",
+      "summary": "Supported and developed new features for smart content design platform for distributed teams called Setka Editor. Developed new plugins and reviewed coworkers' code at TinyMCE trusted open source rich text editor.",
+      "highlights": [
+        "Rewrote major part of Setka Editor, reducing the amount of client-side errors by 50%.",
+        "Supported Setka Editor by fixing reported bugs, improving clients' user experience.",
+        "Developed \"Quick Add\" feature based on clients' requests, improving user satisfaction rate.",
+        "Developed \"Hotspot\" feature, improving clients' satisfaction rate."
+      ],
+      "url": "https://tiny.cloud/",
+      "location": "Remotely"
+    },
+    {
+      "name": "ESH gruppa",
+      "position": "Techincal Consultant",
+      "startDate": "May 2020",
+      "endDate": "",
+      "summary": "Gave techincal consultation and developed fullstack applications.",
+      "highlights": [
+        "Developed eshgruppa.com website with plain HTML, Node.js and Netlify CMS.",
+        "Developed eshprint.com website with Gatsby and Netlify CMS.",
+        "Developed vyrypaev.com with Golang and Netlify CMS."
+      ],
+      "url": "https://eshgruppa.com/",
+      "location": "Moscow, Russia"
+    },
+    {
+      "name": "Setka",
+      "position": "Senior Software Engineer",
+      "startDate": "Sep 2016",
+      "endDate": "Jul 2021",
+      "summary": "Supported and developed new features for Setka Workflow and Setka Editor projects, working in small agile teams. Redesigned and implemented a new UI for Setka Workflow, resulting in less bugs and improved user experience. Improved codebase architecture, developed a lot of new features and supported Setka Editor increasing customer satisfaction score by 15%.",
+      "url": "https://setka.io/",
+      "location": "Remotely",
+      "highlights": [
+        "Setka Editor earned 15 badges in the G2 Grid Report as an exceptional no code design tool.",
+        "Organized code-review system at Setka Editor.",
+        "Configured deployment pipeline for Setka Editor, based on Gitlab CI/CD.",
+        "Developed a custom user-based plugin system within Setka Editor.",
+        "Developed an Unsplash and Giphy integrations with Setka Editor.",
+        "Provided technical support for Setka Editor and Setka Workflow clients.",
+        "Rewrote and redesigned Setka Workflow UI."
+      ]
+    },
+    {
+      "name": "Charmer",
+      "position": "Frontend Engineer",
+      "startDate": "May 2015",
+      "endDate": "Sep 2016",
+      "summary": "Architectured, developed, and supported several media websites with Ruby, Node.js and React.",
+      "highlights": [
+        "Supported Garage Museum website.",
+        "Architectured, developed and supported Gorky Park website.",
+        "Developed and supported Novaya Gazeta website.",
+        "Developed and supported AIDS.Center website."
+      ],
+      "url": "https://charmerstudio.com/en/",
+      "location": "Moscow, Russia"
+    },
+    {
+      "name": "Look At Media",
+      "position": "Frontend Developer",
+      "startDate": "Dec 2014",
+      "endDate": "Apr 2015",
+      "summary": "Developed interactive advertisment projects with JavaScript and Ruby.",
+      "highlights": [
+        "Developed award-winning Skype: Bedtime calls advertisment application."
+      ],
+      "url": "https://www.linkedin.com/company/look-at-me/",
+      "location": "Moscow, Russia"
+    },
+    {
+      "name": "Hot Dot Production",
+      "position": "Frontend Developer",
+      "startDate": "May 2014",
+      "endDate": "Dec 2014",
+      "summary": "Developed websites and interactive applications for variety of clients with Django, jQuery and SASS technologies.",
+      "highlights": [
+        "Developed responsive website for Gianfranco restaurant with jQuery & SASS.",
+        "Developed Internet Security promo with vanilla JavaScript, CSS, SVG animations.",
+        "Developed responsive website with complex animations."
+      ],
+      "url": "https://htdt.github.io/hotdot.pro/",
+      "location": "Moscow, Russia"
+    },
+    {
+      "name": "Datainlife",
+      "position": "Frontend Developer",
+      "startDate": "Aug 2013",
+      "endDate": "May 2014",
+      "summary": "Developed websites for a variety of clients, using html, sass & jquery.",
+      "highlights": [],
+      "url": "",
+      "location": "Moscow, Russia"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "MPEI",
+      "area": "Computer and Information Systems Security/Information Assurance",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "Sep 2012",
+      "endDate": "Jul 2015",
+      "url": "https://www.mpei.ru/lang/en/Pages/default.aspx",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "MGKIT",
+      "area": "Computer and Information Systems Security/Information Assurance",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "Sep 2008",
+      "endDate": "Jul 2012",
+      "url": "",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Frontend Development",
+      "level": "Master",
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "JSX",
+        "React",
+        "Redux",
+        "HTML",
+        "CSS",
+        "JSON",
+        "Webpack"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Master",
+      "keywords": [
+        "Node.js",
+        "Express.js",
+        "NPM",
+        "SQLite",
+        "MongoDB",
+        "Next.js",
+        "Gatsby",
+        "Netlify",
+        "Nginx",
+        "Systemd",
+        "cron"
+      ]
+    },
+    {
+      "name": "DevOps & CI/CD",
+      "level": "Master",
+      "keywords": [
+        "Jenkins",
+        "GitLab",
+        "Github",
+        "Git",
+        "Bash"
+      ]
+    },
+    {
+      "name": "Testing",
+      "level": "Master",
+      "keywords": [
+        "Jest",
+        "Bedrock",
+        "TDD",
+        "Istanbul",
+        "WebDriver",
+        "CodeceptJS",
+        "Enzyme"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Full professional proficiency",
+      "language": "English"
+    },
+    {
+      "fluency": "Limited working proficiency",
+      "language": "Croatian"
+    },
+    {
+      "fluency": "Limited working proficiency",
+      "language": "German"
+    },
+    {
+      "fluency": "Native or bilingual proficiency",
+      "language": "Russian"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": ["Music Composition", "Piano", "Romantism", "Opera"]
+    },
+    {
+      "name": "Reading",
+      "keywords": ["Philosophy", "Culture", "History", "Sci-Fi"]
+    },
+    {
+      "name": "Movies",
+      "keywords": ["Festival Movies"]
+    },
+    {
+      "name": "Running",
+      "keywords": ["Marathons"]
+    },
+    {
+      "name": "Travel",
+      "keywords": ["Marathons"]
+    }
+  ],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
