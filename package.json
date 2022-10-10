@@ -2,11 +2,31 @@
   "name": "jsonresume-theme-waterfall",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "Minimal jsonresume theme",
+  "author": "Aleksandr Yakunichev <npmjs.paqke@aleeas.com>",
+  "keywords": [
+    "jsonresume",
+    "jsonresume-theme",
+    "json",
+    "theme",
+    "minimal",
+    "resume",
+    "cv",
+    "curriculum vitae",
+    "portfolio"
+  ],
+  "homepage": "https://github.com/yacodes/jsonresume-theme-waterfall",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yacodes/jsonresume-theme-waterfall.git"
+  },
   "license": "MIT",
   "scripts": {
-    "dev": "swc index.tsx --quiet --config module.type=commonjs --out-file index.js && resume serve --theme . --silent",
+    "build": "swc index.tsx --quiet --config module.type=commonjs --out-file index.js",
+    "dev": "npm run build && resume serve --theme . --silent",
     "lint": "eslint index.tsx",
-    "start": "watchexec --restart --watch . --ignore index.js --exts tsx,json,css yarn dev"
+    "start": "watchexec --restart --watch . --ignore index.js --exts tsx,json,css yarn dev",
+    "prepublishOnly": "yarn build"
   },
   "dependencies": {
     "@swc/cli": "^0.1.57",
