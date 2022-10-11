@@ -94,7 +94,7 @@ const Details = (resume: Resume): Unit => (
     <h2>Details</h2>
     <ul class="details">
       <li>
-        Location: {resume.basics.location.city}, {resume.basics.location.region}
+        Standort: {resume.basics.location.city}, {resume.basics.location.region}
       </li>
       <li>
         <span>Email: </span>
@@ -103,7 +103,7 @@ const Details = (resume: Resume): Unit => (
         </a>
       </li>
       <li>
-        <span>Website: </span>
+        <span>Webseite: </span>
         <a href={resume.basics.url} target="_blank" rel="noopener noreferrer">
           {resume.basics.url.replace('https://', '')}
         </a>
@@ -124,14 +124,14 @@ const Details = (resume: Resume): Unit => (
 
 const Work = (resume: Resume): Unit => (
   <article class="article highlighted">
-    <h2>Employment History</h2>
+    <h2>Beschäftigungsgeschichte</h2>
     <ul class="list">
       {resume.work
         .map((work) => (
           <li>
             <h3>
               <span>
-                <span>{work.position} at </span>
+                <span>{work.position} bei </span>
                 {work.url ? (
                   <a href={work.url} target="_blank" rel="noopener noreferrer">
                     {work.name}
@@ -141,7 +141,7 @@ const Work = (resume: Resume): Unit => (
                 )}
               </span>
               <time>
-                , {work.startDate} — {work.endDate ? work.endDate : 'Now'}
+                , {work.startDate} — {work.endDate ? work.endDate : 'Heute'}
               </time>
             </h3>
             <p>{work.summary}</p>
@@ -157,14 +157,14 @@ const Work = (resume: Resume): Unit => (
 
 const Education = (resume: Resume): Unit => (
   <article class="article">
-    <h2>Education</h2>
+    <h2>Ausbildung</h2>
     <ul class="list">
       {resume.education
         .map((education) => (
           <li>
             <h3>
               <span>
-                <span>{education.studyType} at </span>
+                <span>{education.studyType} bei </span>
                 {education.url ? (
                   <a href={education.url} target="_blank" rel="noopener noreferrer">
                     {education.institution}
@@ -174,7 +174,7 @@ const Education = (resume: Resume): Unit => (
                 )}
               </span>
               <time>
-                , {education.startDate} — {education.endDate ? education.endDate : 'Now'}
+                , {education.startDate} — {education.endDate ? education.endDate : 'Heute'}
               </time>
             </h3>
             <p>{education.area}</p>
@@ -187,7 +187,7 @@ const Education = (resume: Resume): Unit => (
 
 const Skills = (resume: Resume): Unit => (
   <article class="article">
-    <h2>Skills</h2>
+    <h2>Fähigkeiten</h2>
     <ul class="list double">
       {resume.skills
         .map((skill) => (
@@ -203,7 +203,7 @@ const Skills = (resume: Resume): Unit => (
 
 const Languages = (resume: Resume): Unit => (
   <article class="article">
-    <h2>Languages</h2>
+    <h2>Sprachen</h2>
     <ul class="list double">
       {resume.languages
         .map((language) => (
@@ -219,7 +219,7 @@ const Languages = (resume: Resume): Unit => (
 const References = (resume: Resume): Unit =>
   resume.references?.length ? (
     <article class="article">
-      <h2>References</h2>
+      <h2>Verweise</h2>
       <ul class="list">
         {resume.references
           .map((reference) => (

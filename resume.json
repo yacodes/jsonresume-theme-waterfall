@@ -2,18 +2,18 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Aleksandr Iakunichev",
-    "label": "Frontend Engineer",
+    "label": "Frontend-Entwickler",
     "image": "https://ya.codes/img/cv.jpg",
     "email": "hi@ya.codes",
     "phone": "",
     "url": "https://ya.codes",
-    "summary": "Software Engineer with 10+ years of experience building responsive web applications. Got expertise in modern Frontend technologies such as TypeScript, React, Redux, Jest, and others. Capable of developing simple backend services or CLIs with the use of Node.js. Experienced in building CI/CD pipelines for Frontend applications' testing and deployment using GitLab CI/CD. Currently works as a Senior Engineer at TinyMCE.",
+    "summary": "Frontend-Entwickler mit 10+ Jahren Erfahrung in der Entwicklung responsiver Webanwendungen. Know-how in modernen Frontend-Technologien wie TypeScript, React, Redux, Jest und anderen. Kann einfache Backend-Dienste oder CLIs mit Node.js entwickeln. Erfahrung im Aufbau von CI/CD-Pipelines für das Testen und Bereitstellen von Frontend-Anwendungen mit GitLab CI/CD. Arbeitet derzeit als Senior-Software-Entwickler bei TinyMCE.",
     "location": {
       "address": "",
       "postalCode": "10000",
       "city": "Zagreb",
       "countryCode": "HR",
-      "region": "Croatia"
+      "region": "Kroatien"
     },
     "profiles": [
       {
@@ -31,107 +31,107 @@
   "work": [
     {
       "name": "Tiny",
-      "position": "Senior Software Engineer",
+      "position": "Senior-Software-Entwickler",
       "startDate": "Jul 2021",
-      "summary": "Supported and developed new features for smart content design platform for distributed teams called Setka Editor. Developed new plugins and reviewed coworkers' code at TinyMCE trusted open source rich text editor.",
+      "summary": "Unterstützung und Entwicklung neuer Funktionen für die Smart-Content-Design-Plattform für verteilte Teams namens Setka Editor. Entwickelte neue Plugins und überprüfte den Code von Kollegen im vertrauenswürdigen Open-Source-Rich-Text-Editor von TinyMCE.",
       "highlights": [
-        "Rewrote major part of Setka Editor, reducing the amount of client-side errors by 50%",
-        "Supported Setka Editor by fixing reported bugs, improving clients' user experience",
-        "Developed \"Quick Add\" feature based on clients' requests, improving user satisfaction rate",
-        "Developed \"Hotspot\" feature, improving clients' satisfaction rate"
+        "Großen Teil des Setka-Editors neu geschrieben, wodurch die Anzahl der clientseitigen Fehler um 50 % reduziert wurde",
+        "Unterstützte Setka Editor, indem gemeldete Fehler behoben und die Benutzererfahrung der Kunden verbessert wurden",
+        "Entwicklung der \"Quick Add\"-Funktion basierend auf Kundenanfragen zur Verbesserung der Benutzerzufriedenheitsrate",
+        "Entwicklung der \"Hotspot\"-Funktion zur Verbesserung der Kundenzufriedenheitsrate"
       ],
       "url": "https://tiny.cloud/",
-      "location": "Remotely"
+      "location": "Remote"
     },
     {
       "name": "ESH gruppa",
-      "position": "Techincal Consultant",
+      "position": "Technischer Berater",
       "startDate": "May 2020",
       "endDate": "",
-      "summary": "Gave techincal consultation and developed fullstack applications.",
+      "summary": "Geben Sie technische Beratung und entwickeln Sie Full-Stack-Anwendungen.",
       "highlights": [
-        "Developed eshgruppa.com website with plain HTML, Node.js and Netlify CMS",
-        "Developed eshprint.com website with Gatsby and Netlify CMS",
-        "Developed vyrypaev.com with Golang and Netlify CMS"
+        "Entwicklung der Website eshgruppa.com mit einfachem HTML, Node.js und Netlify CMS",
+        "Entwicklung der Website eshprint.com mit Gatsby und Netlify CMS",
+        "Entwicklung von vyrypaev.com mit Golang und Netlify CMS"
       ],
       "url": "https://eshgruppa.com/",
-      "location": "Moscow, Russia"
+      "location": "Moskau, Russland"
     },
     {
       "name": "Setka",
-      "position": "Senior Software Engineer",
+      "position": "Senior-Software-Entwickler",
       "startDate": "Sep 2016",
       "endDate": "Jul 2021",
-      "summary": "Supported and developed new features for Setka Workflow and Setka Editor projects, working in small agile teams.",
+      "summary": "Unterstützung und Entwicklung neuer Funktionen für die Projekte Setka Workflow und Setka Editor, Arbeit in kleinen agilen Teams.",
       "url": "https://setka.io/",
-      "location": "Remotely",
+      "location": "Remote",
       "highlights": [
-        "Setka Editor earned 15 badges in the G2 Grid Report as an exceptional no code design tool",
-        "Organized code-review system at Setka Editor",
-        "Configured deployment pipeline for Setka Editor, based on Gitlab CI/CD",
-        "Developed a custom user-based plugin system within Setka Editor",
-        "Developed an Unsplash and Giphy integrations with Setka Editor",
-        "Provided technical support for Setka Editor and Setka Workflow clients",
-        "Rewrote and redesigned Setka Workflow UI"
+        "Setka Editor erhielt 15 Auszeichnungen im G2 Grid Report als außergewöhnliches No-Code-Design-Tool",
+        "Organisiertes Code-Review-System bei Setka Editor",
+        "Konfigurierte die Deployment-Pipeline für Setka Editor, basierend auf Gitlab CI/CD",
+        "Entwicklung eines benutzerbasierten Plugin-Systems für Setka Editor",
+        "Entwicklung einer Unsplash- und Giphy-Integration mit Setka Editor",
+        "Bereitstellung von technischem Support für Setka Editor und Setka Workflow Clients",
+        "Überarbeitung und Neugestaltung der Setka Workflow-Benutzeroberfläche"
       ]
     },
     {
       "name": "Charmer",
-      "position": "Frontend Engineer",
+      "position": "Frontend-Entwickler",
       "startDate": "May 2015",
       "endDate": "Sep 2016",
-      "summary": "Architectured, developed, and supported several media websites with Ruby, Node.js and React.",
+      "summary": "Architektur, Entwicklung und Unterstützung mehrerer Medien-Websites mit Ruby, Node.",
       "highlights": [
-        "Supported Garage Museum website",
-        "Architectured, developed and supported Gorky Park website",
-        "Developed and supported Novaya Gazeta website",
-        "Developed and supported AIDS.Center website"
+        "Unterstützte die Website des Garagenmuseums",
+        "Gestaltung, Entwicklung und Betreuung der Website des Gorki-Parks",
+        "Entwickelte und unterstützte die Website der Novaya Gazeta",
+        "Entwicklung und Unterstützung der Website des AIDS-Zentrums"
       ],
       "url": "https://charmerstudio.com/en/",
-      "location": "Moscow, Russia"
+      "location": "Moskau, Russland"
     },
     {
       "name": "Look At Media",
-      "position": "Frontend Developer",
+      "position": "Frontend-Entwickler",
       "startDate": "Dec 2014",
       "endDate": "Apr 2015",
-      "summary": "Developed interactive advertisment projects with JavaScript and Ruby.",
+      "summary": "Entwicklung von interaktiven Werbeprojekten mit JavaScript und Ruby.",
       "highlights": [
-        "Developed award-winning Skype: Bedtime calls advertisment application"
+        "Entwickelte die preisgekrönte Werbeanwendung Skype: Bedtime calls"
       ],
       "url": "https://www.linkedin.com/company/look-at-me/",
-      "location": "Moscow, Russia"
+      "location": "Moskau, Russland"
     },
     {
       "name": "Hot Dot Production",
-      "position": "Frontend Developer",
+      "position": "Frontend-Entwickler",
       "startDate": "May 2014",
       "endDate": "Dec 2014",
-      "summary": "Developed websites and interactive applications for variety of clients with Django, jQuery and SASS technologies.",
+      "summary": "Entwicklung von Websites und interaktiven Anwendungen für eine Vielzahl von Kunden mit Django, jQuery und SASS Technologien.",
       "highlights": [
-        "Developed responsive website for Gianfranco restaurant with jQuery & SASS",
-        "Developed Internet Security promo with vanilla JavaScript, CSS, SVG animations",
-        "Developed responsive website with complex animations"
+        "Entwicklung einer responsiven Website für das Restaurant Gianfranco mit jQuery und SASS",
+        "Entwickelt Internet Security Promo mit Vanilla JavaScript, CSS, SVG Animationen",
+        "Entwicklung einer responsiven Website mit komplexen Animationen"
       ],
       "url": "https://htdt.github.io/hotdot.pro/",
-      "location": "Moscow, Russia"
+      "location": "Moskau, Russland"
     },
     {
       "name": "Datainlife",
-      "position": "Frontend Developer",
+      "position": "Frontend-Entwickler",
       "startDate": "Aug 2013",
       "endDate": "May 2014",
-      "summary": "Developed websites for a variety of clients, using html, sass & jquery.",
+      "summary": "Entwicklung von Websites für eine Vielzahl von Kunden unter Verwendung von HTML, SASS und JQuery.",
       "highlights": [],
       "url": "",
-      "location": "Moscow, Russia"
+      "location": "Moskau, Russland"
     }
   ],
   "volunteer": [],
   "education": [
     {
       "institution": "MPEI",
-      "area": "Computer and Information Systems Security/Information Assurance",
+      "area": "Sicherheit von Computer- und Informationssystemen/Informationssicherung",
       "studyType": "Bachelor of Engineering",
       "startDate": "Sep 2012",
       "endDate": "Jul 2015",
@@ -141,7 +141,7 @@
     },
     {
       "institution": "MGKIT",
-      "area": "Computer and Information Systems Security/Information Assurance",
+      "area": "Sicherheit von Computer- und Informationssystemen/Informationssicherung",
       "studyType": "Bachelor of Engineering",
       "startDate": "Sep 2008",
       "endDate": "Jul 2012",
@@ -154,7 +154,7 @@
   "publications": [],
   "skills": [
     {
-      "name": "Frontend Development",
+      "name": "Frontend-Entwicklung",
       "level": "Master",
       "keywords": [
         "JavaScript",
@@ -169,7 +169,7 @@
       ]
     },
     {
-      "name": "Backend Development",
+      "name": "Backend-Entwicklung",
       "level": "Master",
       "keywords": [
         "Node.js",
@@ -197,7 +197,7 @@
       ]
     },
     {
-      "name": "Testing",
+      "name": "Testen",
       "level": "Master",
       "keywords": [
         "Jest",
@@ -212,20 +212,20 @@
   ],
   "languages": [
     {
-      "fluency": "Full professional proficiency",
-      "language": "English"
+      "fluency": "Vollständige fachliche Eignung",
+      "language": "Englisch"
     },
     {
-      "fluency": "Limited working proficiency",
-      "language": "Croatian"
+      "fluency": "Begrenzte Arbeitskenntnisse",
+      "language": "Kroatisch"
     },
     {
-      "fluency": "Limited working proficiency",
-      "language": "German"
+      "fluency": "Begrenzte Arbeitskenntnisse",
+      "language": "Deutsch"
     },
     {
-      "fluency": "Native or bilingual proficiency",
-      "language": "Russian"
+      "fluency": "Muttersprachliche oder zweisprachige Kenntnisse",
+      "language": "Russisch"
     }
   ],
   "interests": [
