@@ -24,14 +24,13 @@ a:hover {
   text-decoration-color: transparent;
 }
 .layout {
-  width: 768px;
   padding: 12px;
   margin: 0 auto;
+  max-width: 768px;
 }
 
 .header {
   display: flex;
-  overflow: hidden;
 }
 .header h1 {
   margin: 0;
@@ -49,6 +48,19 @@ a:hover {
   display: block;
   object-fit: cover;
 }
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 40px;
+    transform: none;
+    margin-top: -8px;
+    letter-spacing: 0;
+    line-height: 46px;
+  }
+  .header img {
+    width: 80px;
+    height: 80px;
+  }
+}
 
 .article {
   margin-top: 60px;
@@ -59,9 +71,9 @@ a:hover {
   text-transform: uppercase;
 }
 .article p {
-  margin: 0;
   font-size: 16px;
-  line-height: 1.2;
+  margin: 12px 0 0;
+  line-height: 24px;
   font-family: Source San Pro, sans-serif;
 }
 .article ul {
@@ -77,9 +89,15 @@ a:hover {
 .double {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 20px;
 }
 .double li {
   flex: 0 0 50%;
+}
+@media (max-width: 768px) {
+  .double li {
+    flex: 0 0 100%;
+  }
 }
 
 .list {
@@ -94,9 +112,10 @@ a:hover {
   font-family: Oswald, Arial, sans-serif;
 }
 .list > li {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .list ul {
-  margin-top: 8px;
   list-style: disc;
+  margin-top: 12px;
+  padding-left: 20px;
 }

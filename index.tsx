@@ -236,9 +236,10 @@ const render = (resume: Resume): string =>
   (
     <html>
       <head>
-        <meta charset="utf-8"/>
-        <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-        <meta name="viewport" content="width=768"/>
+        <title>{resume.basics.name}</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1" />
         <style>{fs.readFileSync('./index.css', 'utf-8')}</style>
       </head>
       <body>
