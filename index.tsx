@@ -92,7 +92,7 @@ const Summary = (resume: Resume): Unit => (
 const Details = (resume: Resume): Unit => (
   <article class="article">
     <h2>Details</h2>
-    <ul class="double">
+    <ul class="details">
       <li>
         Location: {resume.basics.location.city}, {resume.basics.location.region}
       </li>
@@ -105,7 +105,7 @@ const Details = (resume: Resume): Unit => (
       <li>
         <span>Website: </span>
         <a href={resume.basics.url} target="_blank" rel="noopener noreferrer">
-          {resume.basics.url}
+          {resume.basics.url.replace('https://', '')}
         </a>
       </li>
       {resume.basics.profiles
@@ -123,7 +123,7 @@ const Details = (resume: Resume): Unit => (
 );
 
 const Work = (resume: Resume): Unit => (
-  <article class="article">
+  <article class="article highlighted">
     <h2>Employment History</h2>
     <ul class="list">
       {resume.work
@@ -145,7 +145,9 @@ const Work = (resume: Resume): Unit => (
               </time>
             </h3>
             <p>{work.summary}</p>
-            <ul>{work.highlights.map((highlight) => <li>{highlight}</li>).join('')}</ul>
+            {work.highlights.length > 0 ? (
+              <ul>{work.highlights.map((highlight) => <li>{highlight}</li>).join('')}</ul>
+            ) : null}
           </li>
         ))
         .join('')}
@@ -191,7 +193,7 @@ const Skills = (resume: Resume): Unit => (
         .map((skill) => (
           <li>
             <h3>{skill.name}</h3>
-            <p>{skill.keywords.join(', ')}</p>
+            <p class="m-smaller">{skill.keywords.join(', ')}</p>
           </li>
         ))
         .join('')}
@@ -207,7 +209,7 @@ const Languages = (resume: Resume): Unit => (
         .map((language) => (
           <li>
             <h3>{language.language}</h3>
-            <p>{language.fluency}</p>
+            <p class="m-smaller">{language.fluency}</p>
           </li>
         ))
         .join('')}
@@ -231,6 +233,26 @@ const References = (resume: Resume): Unit =>
     </article>
   ) : null;
 
+const Footer = (resume: Resume): Unit => {
+  const github = resume.basics.profiles.find((profile) => profile.network === 'Github');
+
+  return (
+    <footer class="footer">
+      <a href={`mailto:${resume.basics.email}`} rel="noopener noreferrer">
+        {resume.basics.email}
+      </a>
+      {github ? (
+        <a href={github.url} target="_blank" rel="noopener noreferrer">
+          Github
+        </a>
+      ) : null}
+      <a href={resume.basics.url} target="_blank" rel="noopener noreferrer">
+        {resume.basics.url.replace('https://', '')}
+      </a>
+    </footer>
+  );
+};
+
 const render = (resume: Resume): string =>
   '<!doctype html>' +
   (
@@ -252,6 +274,7 @@ const render = (resume: Resume): string =>
           <Education {...resume} />
           <Languages {...resume} />
           <References {...resume} />
+          <Footer {...resume} />
         </main>
       </body>
     </html>

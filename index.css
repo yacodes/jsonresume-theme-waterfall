@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&display=swap');
 
 *,
 *::before,
@@ -11,9 +10,9 @@ body {
   margin: 0;
   color: #000;
   min-width: 320px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 0.725;
-  font-family: Oswald, Arial, sans-serif;
+  font-family: "Bebas Neue", Arial, sans-serif;
 }
 a {
   color: #000;
@@ -34,13 +33,12 @@ a:hover {
 }
 .header h1 {
   margin: 0;
-  font-size: 60px;
-  font-weight: 700;
+  font-size: 83px;
+  font-weight: 400;
+  line-height: 66px;
   padding-right: 12px;
   letter-spacing: 0.4px;
   text-transform: uppercase;
-  transform: scale(1, 2.46);
-  transform-origin: left top;
 }
 .header img {
   width: 120px;
@@ -50,11 +48,10 @@ a:hover {
 }
 @media (max-width: 768px) {
   .header h1 {
-    font-size: 40px;
+    font-size: 57px;
     transform: none;
-    margin-top: -8px;
     letter-spacing: 0;
-    line-height: 46px;
+    line-height: 42px;
   }
   .header img {
     width: 80px;
@@ -65,6 +62,9 @@ a:hover {
 .article {
   margin-top: 60px;
 }
+.article time {
+  white-space: nowrap;
+}
 .article h2 {
   font-size: 32px;
   margin: 0 0 12px;
@@ -72,9 +72,9 @@ a:hover {
 }
 .article p {
   font-size: 16px;
-  margin: 12px 0 0;
-  line-height: 24px;
-  font-family: Source San Pro, sans-serif;
+  margin: 4px 0 0;
+  line-height: 21px;
+  font-family: Inter, sans-serif;
 }
 .article ul {
   margin: 20px 0 0;
@@ -83,7 +83,35 @@ a:hover {
   font-size: 16px;
   margin: 0 0 4px;
   line-height: 1.2;
-  font-family: Source San Pro, sans-serif;
+  font-family: Inter, sans-serif;
+}
+.highlighted {
+  background: #f6f6f6;
+  margin-left: -12px;
+  margin-right: -12px;
+  padding: 20px 12px;
+}
+@media (max-width: 768px) {
+  .article h2 {
+    font-size: 38px;
+  }
+  .article p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .article .m-smaller {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}
+
+.details {
+  padding-left: 20px;
+}
+@media (max-width: 768px) {
+  .details li {
+    margin-bottom: 12px;
+  }
 }
 
 .double {
@@ -108,14 +136,42 @@ a:hover {
 .list h3 {
   font-size: 24px;
   margin: 0 0 4px;
-  font-weight: 300;
-  font-family: Oswald, Arial, sans-serif;
+  font-weight: 400;
+  font-family: "Bebas Neue", Arial, sans-serif;
 }
 .list > li {
-  margin-bottom: 40px;
+  margin-bottom: 36px;
+}
+.list > li:last-child {
+  margin-bottom: 0;
 }
 .list ul {
+  max-width: 50%;
   list-style: disc;
   margin-top: 12px;
   padding-left: 20px;
+}
+.list ul li {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+@media (max-width: 768px) {
+  .list ul {
+    max-width: 100%;
+  }
+  .list h3 {
+    font-size: 28px;
+    line-height: 26px;
+    margin-bottom: 8px;
+  }
+}
+
+.footer {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+.footer a {
+  font-size: 14px;
+  font-family: Inter, sans-serif;
 }
