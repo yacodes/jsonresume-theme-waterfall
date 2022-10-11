@@ -35,10 +35,10 @@
       "startDate": "Jul 2021",
       "summary": "Supported and developed new features for smart content design platform for distributed teams called Setka Editor. Developed new plugins and reviewed coworkers' code at TinyMCE trusted open source rich text editor.",
       "highlights": [
-        "Rewrote major part of Setka Editor, reducing the amount of client-side errors by 50%.",
-        "Supported Setka Editor by fixing reported bugs, improving clients' user experience.",
-        "Developed \"Quick Add\" feature based on clients' requests, improving user satisfaction rate.",
-        "Developed \"Hotspot\" feature, improving clients' satisfaction rate."
+        "Rewrote major part of Setka Editor, reducing the amount of client-side errors by 50%",
+        "Supported Setka Editor by fixing reported bugs, improving clients' user experience",
+        "Developed \"Quick Add\" feature based on clients' requests, improving user satisfaction rate",
+        "Developed \"Hotspot\" feature, improving clients' satisfaction rate"
       ],
       "url": "https://tiny.cloud/",
       "location": "Remotely"
@@ -50,9 +50,9 @@
       "endDate": "",
       "summary": "Gave techincal consultation and developed fullstack applications.",
       "highlights": [
-        "Developed eshgruppa.com website with plain HTML, Node.js and Netlify CMS.",
-        "Developed eshprint.com website with Gatsby and Netlify CMS.",
-        "Developed vyrypaev.com with Golang and Netlify CMS."
+        "Developed eshgruppa.com website with plain HTML, Node.js and Netlify CMS",
+        "Developed eshprint.com website with Gatsby and Netlify CMS",
+        "Developed vyrypaev.com with Golang and Netlify CMS"
       ],
       "url": "https://eshgruppa.com/",
       "location": "Moscow, Russia"
@@ -66,13 +66,13 @@
       "url": "https://setka.io/",
       "location": "Remotely",
       "highlights": [
-        "Setka Editor earned 15 badges in the G2 Grid Report as an exceptional no code design tool.",
-        "Organized code-review system at Setka Editor.",
-        "Configured deployment pipeline for Setka Editor, based on Gitlab CI/CD.",
-        "Developed a custom user-based plugin system within Setka Editor.",
-        "Developed an Unsplash and Giphy integrations with Setka Editor.",
-        "Provided technical support for Setka Editor and Setka Workflow clients.",
-        "Rewrote and redesigned Setka Workflow UI."
+        "Setka Editor earned 15 badges in the G2 Grid Report as an exceptional no code design tool",
+        "Organized code-review system at Setka Editor",
+        "Configured deployment pipeline for Setka Editor, based on Gitlab CI/CD",
+        "Developed a custom user-based plugin system within Setka Editor",
+        "Developed an Unsplash and Giphy integrations with Setka Editor",
+        "Provided technical support for Setka Editor and Setka Workflow clients",
+        "Rewrote and redesigned Setka Workflow UI"
       ]
     },
     {
@@ -82,10 +82,10 @@
       "endDate": "Sep 2016",
       "summary": "Architectured, developed, and supported several media websites with Ruby, Node.js and React.",
       "highlights": [
-        "Supported Garage Museum website.",
-        "Architectured, developed and supported Gorky Park website.",
-        "Developed and supported Novaya Gazeta website.",
-        "Developed and supported AIDS.Center website."
+        "Supported Garage Museum website",
+        "Architectured, developed and supported Gorky Park website",
+        "Developed and supported Novaya Gazeta website",
+        "Developed and supported AIDS.Center website"
       ],
       "url": "https://charmerstudio.com/en/",
       "location": "Moscow, Russia"
@@ -97,7 +97,7 @@
       "endDate": "Apr 2015",
       "summary": "Developed interactive advertisment projects with JavaScript and Ruby.",
       "highlights": [
-        "Developed award-winning Skype: Bedtime calls advertisment application."
+        "Developed award-winning Skype: Bedtime calls advertisment application"
       ],
       "url": "https://www.linkedin.com/company/look-at-me/",
       "location": "Moscow, Russia"
@@ -109,9 +109,9 @@
       "endDate": "Dec 2014",
       "summary": "Developed websites and interactive applications for variety of clients with Django, jQuery and SASS technologies.",
       "highlights": [
-        "Developed responsive website for Gianfranco restaurant with jQuery & SASS.",
-        "Developed Internet Security promo with vanilla JavaScript, CSS, SVG animations.",
-        "Developed responsive website with complex animations."
+        "Developed responsive website for Gianfranco restaurant with jQuery & SASS",
+        "Developed Internet Security promo with vanilla JavaScript, CSS, SVG animations",
+        "Developed responsive website with complex animations"
       ],
       "url": "https://htdt.github.io/hotdot.pro/",
       "location": "Moscow, Russia"
