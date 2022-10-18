@@ -1,5 +1,5 @@
 /** @jsx h */
-import fs from 'node:fs';
+import * as fs from 'fs';
 
 type Unit = string;
 type Attrs = { [key: string]: string | number };
@@ -243,7 +243,7 @@ const Footer = (resume: Resume): Unit => {
       </a>
       {github ? (
         <a href={github.url} target="_blank" rel="noopener noreferrer">
-          Github
+          github
         </a>
       ) : null}
       <a href={resume.basics.url} target="_blank" rel="noopener noreferrer">
