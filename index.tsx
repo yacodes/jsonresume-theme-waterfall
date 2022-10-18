@@ -271,9 +271,9 @@ const render = (resume: Resume): string =>
           <Details {...resume} />
           <Skills {...resume} />
           <Work {...resume} />
+          <References {...resume} />
           <Education {...resume} />
           <Languages {...resume} />
-          <References {...resume} />
           <Footer {...resume} />
         </main>
       </body>

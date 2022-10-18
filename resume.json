@@ -250,7 +250,12 @@
       "keywords": ["Marathons"]
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "name": "Valeriy Kozhanov, Director, ESH gruppa",
+      "reference": "We have developed several web projects for our design studio with Alexander. I have to say he is a skilled developer and a reliable professional. He works fast and with attention to detail."
+    }
+  ],
   "projects": [],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
